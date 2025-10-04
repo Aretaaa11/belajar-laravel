@@ -1,0 +1,83 @@
+# -----------------------
+# Laravel 12 .gitignore
+# -----------------------
+
+# Composer
+/vendor/
+/composer.phar
+
+# Node / frontend
+/node_modules/
+/public/build/
+/public/hot
+/.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Laravel storage & generated files
+/storage/*.key
+/storage/*.sqlite
+/storage/debugbar/*
+/storage/app/public
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+# jika ingin menyimpan placeholder, commit storage/.gitkeep
+!storage/.gitkeep
+
+# Cache & compiled files
+/bootstrap/cache/*.php
+/public/storage
+/public/mix-manifest.json
+/public/manifest.json
+/public/worker.js
+/.phpunit.result.cache
+
+# IDE / editor
+/.idea/
+/.vscode/
+/*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.swp
+*~.nib
+*.swo
+*.swn
+/.phpstorm.meta.php
+
+# File OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build artifacts, logs, dan temp
+*.log
+*.cache
+.cache/
+tmp/
+temp/
+dist/
+build/
+
+# Opsional: jika pakai Docker
+/.env.docker
+/docker-compose.override.yml
+
+# Opsional: utilitas lokal / binary
+/.vagrant/
+/homestead.yaml
+Homestead.json
+
+# Tests / coverage
+/coverage/
+/phpunit.xml
+phpunit.xml.dist
