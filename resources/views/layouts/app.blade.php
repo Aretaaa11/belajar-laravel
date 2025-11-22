@@ -20,6 +20,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
+    @stack('scripts')
     <div class="layout-wrapper layout-content-navbar">
         <div class="layout-container">
             @include('components.layout.sidebar')
