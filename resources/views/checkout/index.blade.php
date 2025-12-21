@@ -69,7 +69,7 @@
 								<option value="ewallet">E-Wallet (OVO, Dana, GoPay)</option>
 							</select>
 						</div>
-						<button type="submit" class="btn btn-success w-100 btn-lg">Proses Pembayaran</button>
+						<button type="submit" class="btn btn-success w-100 btn-lg">Proses Pembayaran checkout</button>
 					</form>
 				</div>
 			</div>

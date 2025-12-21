@@ -33,7 +33,7 @@
 								Tambah ke Keranjang
 							</button>
 						</form>
-						<a href="{{ route('products.index') }}" class="btn btn-outline-secondary btn-lg">Kembali</a>
+						<a href="{{ route('home') }}" class="btn btn-outline-secondary btn-lg">Kembali</a>
 					</div>
 				</div>
 			</div>

@@ -17,7 +17,7 @@
 						<a class="nav-link" href="{{ route('cart.index') }}">Menu Checkout</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Daftar Pesanan</a>
+						<a class="nav-link" href="{{route('orders.history')}}">Daftar Pesanan</a>
 					</li>
 				@endauth
 			</ul>
